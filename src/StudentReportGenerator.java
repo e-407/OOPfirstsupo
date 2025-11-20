@@ -11,7 +11,7 @@ public class StudentReportGenerator {
     }
 
     public static void main(String args[]){
-        System.out.println("Inputting 'ReportName'\nExpecting 'ReportName 2025'");
+        System.out.println("Testing 'ReportName'\nExpecting 'ReportName 2025'");
         StudentReportGenerator studentReportGenerator = new StudentReportGenerator("ReportName");
         String report = studentReportGenerator.generateReport();
         if (report.equals("ReportName 2025")){
