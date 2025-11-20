@@ -10,7 +10,7 @@ public class TailRecursionTest {
 
     public static void main(String[] args){
         System.out.println("Attempting to increment 0 by 1,000,000");
-        int result = TailRecursionTest.increment(0, 1000000);
+        int result = increment(0, 1000000);
         System.out.println("Tail recursion effectively implemented.");
     }
 }
