@@ -23,3 +23,5 @@ Q2.6b: code in StudentRecord.java
 Q2.7b: run SearchSet.java (code also in BinaryTreeNode.java). Both the insert and contains methods recursively traverse the tree.
 
 Q2.7c: run FunctionalArray.java. The indexing follows the structure seen in the FoCS course. The recursive methods select which direction to traverse the tree, and the index is updated so the branch node becomes the root in each recursive call.
+
+Q3.4: run ReferenceTest.java. The code initialises a test array, and passes it into a method as an argument. The method then changes the reference. Then the main method prints an element from test, but it remains unchanged. Therefore the method must have made a copy of the reference.
