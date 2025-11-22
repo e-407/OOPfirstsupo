@@ -11,13 +11,13 @@ public class StudentReportGenerator {
     }
 
     public static void main(String args[]){
-        System.out.println("Testing 'ReportName'\nExpecting 'ReportName 2025'");
+        System.out.println("Testing 'ReportName', expecting: 'ReportName 2025'");
         StudentReportGenerator studentReportGenerator = new StudentReportGenerator("ReportName");
         String report = studentReportGenerator.generateReport();
         if (report.equals("ReportName 2025")){
             System.out.println("Test successful");
         } else {
-            System.out.println("Test failure");
+            System.out.println("Test failed");
         }
     }
 }
